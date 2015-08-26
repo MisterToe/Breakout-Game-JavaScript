@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Breakout!</title>
-			<link href="../CSS/style.css" rel="stylesheet" type="text/css" />
-			<link rel="icon" href="../Images/favicon.ico" />
-    
-</head>
-		<?php $h2="Breakout!";
-		include("../Pages/header.php"); ?>
-</br>		
-		<div class="box-shadow-preview">
-
-</br>
-
-<canvas id="myCanvas" width="480" height="320"></canvas>
-
 <script>
     var canvas = document.getElementById("myCanvas");
     var ctx = canvas.getContext("2d");
@@ -177,10 +159,3 @@
     }
     draw();
 </script>
-</br>
-<p>A simple Breakout style game made in JavaScript. You can control the paddle with the Left / Right Arrow keys or by moving the mouse.
-</div>
-
-</br>
-
-<?php include("../Pages/footer.php"); ?>
